@@ -1,0 +1,62 @@
+<html>
+<head>
+	<script src="logic.js"></script>
+	<script src="storage.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Resume Creator</title>
+</head>
+<body>
+<form id="form1">
+	<h1>Resume Creator</h1></br>
+	<table>
+		<tr>
+			<td>
+				<b>First Name:</b> <input type="text" id="fname" name="fname">
+				&emsp;<b>Last Name:</b> <input type="text" id="lname" name="lname">
+			</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td></br>
+				<b>Username:</b> <input type="text" id="uname" name="uname">
+				&emsp;<b>Date of Birth:</b> <input type="date" id="date" max="2023-04-20">
+			</td>
+		</tr>
+		<tr>
+			<td></br>
+				<h3>What programming languages do you know?</h3>
+				<input type="checkbox" id="html" name="html" value="html">HTML
+				<input type="checkbox" id="python" name="python" value="python">Python
+				<input type="checkbox" id="java" name="java" value="java">Java
+				<input type="checkbox" id="cpp" name="cpp" value="cpp">C++
+				<input type="checkbox" id="js" name="js" value="js">JavaScript
+			</td>
+		</tr>
+		<tr>
+			<td></br>
+				<textarea name="ft" id="ft" rows="5" cols="60" placeholder="Write a little bit about yourself"
+				maxlength="310"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td></br>
+				 <input type="button" value="Clean" onclick="clean()">
+				 <input type="button" value="Send" onclick="check()">
+				 <input type="button" value="Show-users" onclick="show()">
+			</td>
+		</tr>
+	</table>
+	</br>
+	</br>
+	<iframe src="https://www.youtube.com/embed/v-faE4I1O7w" title="YouTube video player"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	allowfullscreen></iframe>
+</form>
+</body>
+</html>
+
+
+
+
+
